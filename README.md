@@ -40,10 +40,11 @@ MyEditor is a web-based code editor designed to provide a seamless coding experi
 3. Configure the `.env` file in the `backend` folder:
    ```properties
    GEMINI_API_KEY=your_gemini_api_key_here
+   JUDGE0_API_KEY=your_judge0_api_key_here
    PORT=3000
    ```
 
-   > **Note**: The Judge0 API key is configured directly in `server.js`. Replace the placeholder key with your own API key obtained from the [Judge0 API](https://rapidapi.com/judge0-official/api/judge0-ce/).
+   > **Note**: Ensure both the Gemini API key and the Judge0 API key are set in the `.env` file. Replace the placeholder keys with your own API keys obtained from the respective services.
 
 ### Running the Application
 
@@ -68,3 +69,4 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 ## License
 
 This project is licensed under the ISC License.
+
